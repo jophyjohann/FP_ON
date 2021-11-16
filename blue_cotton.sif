@@ -1,0 +1,102 @@
+[DOCUMENT]
+type:"MeasurementData"
+version:"1.0"
+created:2021-11-05 14:49:46
+creator:"SenoSoft 2.3.1"
+
+[MEASUREMENT]
+time:2021-11-05 13:47:11
+id:2c98062c-e50c-4e6b-b3be-0e9e3e593235
+name:"blue cotton"
+
+[SAMPLE]
+id:n/a
+label:n/a
+name:n/a
+description:n/a
+
+[REFERENCE_VALUES*]
+analyteId	analyteName	value	unit	description	levelOfMeasurement	matrixId	matrixName	stateOfMatter
+
+[DEVICE]
+name:"Senocorder Beta"
+revision:3
+configuration:"default-39"
+firmwareName:"Senocorder"
+firmwareVersion:"1.0.0"
+serialId:"1-39-3-1-200701-1"
+pixelWavelengths:[1270.0,1460.0,1643.0,1831.0,1690.0,1504.0,1321.0,1127.0,1175.0,1368.0,1549.0,1735.0,1778.0,1590.0,1411.0,1217.0]
+
+[SPECTRUM_DATUM*]
+wavelength	adcCount	cellSigma	resistor
+1127.0	10809.1	17.874283	100.0
+1175.0	8604.2	20.850899	48.5
+1217.0	8258.8	21.3813	48.5
+1270.0	7317.8	17.348198	48.5
+1321.0	7464.9	16.108694	48.5
+1368.0	6743.2	21.428019	48.5
+1411.0	9704.6	22.935562	100.0
+1460.0	5769.9	17.346182	100.0
+1504.0	7317.4	18.205494	200.0
+1549.0	5791.3	27.313183	200.0
+1590.0	3835.6	23.766363	200.0
+1643.0	8014.6	21.721878	500.0
+1690.0	6397.3	23.160526	500.0
+1735.0	5021.6	29.860342	500.0
+1778.0	4002.9	26.594925	500.0
+1831.0	4176.7	20.909567	500.0
+
+[SPECTRUM_CONDITIONS*]
+temperature (degC)	airPressure (mbar)	relHumidity (%)
+34.309998	1003.734375	44.464844
+
+[OFFSET_REFERENCE*]
+wavelength	adcCount	cellSigma	resistor
+1127.0	0.0	0.0	0.0
+1175.0	0.0	0.0	0.0
+1217.0	0.0	0.0	0.0
+1270.0	0.0	0.0	0.0
+1321.0	0.0	0.0	0.0
+1368.0	0.0	0.0	0.0
+1411.0	0.0	0.0	0.0
+1460.0	0.0	0.0	0.0
+1504.0	0.0	0.0	0.0
+1549.0	0.0	0.0	0.0
+1590.0	0.0	0.0	0.0
+1643.0	0.0	0.0	0.0
+1690.0	0.0	0.0	0.0
+1735.0	0.0	0.0	0.0
+1778.0	0.0	0.0	0.0
+1831.0	0.0	0.0	0.0
+
+[OFFSET_CONDITIONS*]
+temperature (degC)	airPressure (mbar)	relHumidity (%)
+31.720001	1003.634375	45.91797
+
+[WHITE_REFERENCE*]
+wavelength	adcCount	cellSigma	resistor
+1127.0	9927.7	19.354845	100.0
+1175.0	7823.2	21.889723	48.5
+1217.0	7748.6	24.154503	48.5
+1270.0	6916.1	17.108185	48.5
+1321.0	7023.2	18.438004	48.5
+1368.0	6400.3	23.668756	48.5
+1411.0	9603.5	26.612967	100.0
+1460.0	6427.0	18.622566	100.0
+1504.0	8679.7	22.618797	200.0
+1549.0	6944.1	25.882233	200.0
+1590.0	4579.0	28.868668	200.0
+1643.0	9114.5	21.92373	500.0
+1690.0	6929.0	21.057066	500.0
+1735.0	5320.5	27.88279	500.0
+1778.0	4213.3	29.519655	500.0
+1831.0	4320.3	20.22894	500.0
+
+[WHITE_REFERENCE_CONDITIONS*]
+temperature (degC)	airPressure (mbar)	relHumidity (%)
+31.720001	1003.634375	45.91797
+
+[PREDICTIONS*]
+modelId	analyteId	analyteName	value	unit
+362cc992-bc3b-11ea-a26e-24418cfdf326	a44897eb-93c6-11ea-b1ef-00ff0275697c	"fabric"	"Cotton"	""
+

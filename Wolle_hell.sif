@@ -1,0 +1,102 @@
+[DOCUMENT]
+type:"MeasurementData"
+version:"1.0"
+created:2021-11-05 14:49:46
+creator:"SenoSoft 2.3.1"
+
+[MEASUREMENT]
+time:2021-11-05 13:36:14
+id:7a9e3598-c835-4c16-ae63-0ef82f177f94
+name:"Wolle hell"
+
+[SAMPLE]
+id:n/a
+label:n/a
+name:n/a
+description:n/a
+
+[REFERENCE_VALUES*]
+analyteId	analyteName	value	unit	description	levelOfMeasurement	matrixId	matrixName	stateOfMatter
+
+[DEVICE]
+name:"Senocorder Beta"
+revision:3
+configuration:"default-39"
+firmwareName:"Senocorder"
+firmwareVersion:"1.0.0"
+serialId:"1-39-3-1-200701-1"
+pixelWavelengths:[1270.0,1460.0,1643.0,1831.0,1690.0,1504.0,1321.0,1127.0,1175.0,1368.0,1549.0,1735.0,1778.0,1590.0,1411.0,1217.0]
+
+[SPECTRUM_DATUM*]
+wavelength	adcCount	cellSigma	resistor
+1127.0	9802.5	15.265975	100.0
+1175.0	7342.8	20.380383	48.5
+1217.0	7147.5	19.632881	48.5
+1270.0	6485.3	14.819244	48.5
+1321.0	6578.8	14.978651	48.5
+1368.0	5719.3	21.63354	48.5
+1411.0	8311.6	23.243063	100.0
+1460.0	4930.0	19.914818	100.0
+1504.0	6274.2	20.5514	200.0
+1549.0	4829.0	23.59661	200.0
+1590.0	3329.0	25.226969	200.0
+1643.0	7084.3	16.223747	500.0
+1690.0	5501.2	20.5514	500.0
+1735.0	4152.7	23.824568	500.0
+1778.0	3409.0	23.660093	500.0
+1831.0	3784.7	17.053152	500.0
+
+[SPECTRUM_CONDITIONS*]
+temperature (degC)	airPressure (mbar)	relHumidity (%)
+31.220001	1003.61625	45.98633
+
+[OFFSET_REFERENCE*]
+wavelength	adcCount	cellSigma	resistor
+1127.0	0.0	0.0	0.0
+1175.0	0.0	0.0	0.0
+1217.0	0.0	0.0	0.0
+1270.0	0.0	0.0	0.0
+1321.0	0.0	0.0	0.0
+1368.0	0.0	0.0	0.0
+1411.0	0.0	0.0	0.0
+1460.0	0.0	0.0	0.0
+1504.0	0.0	0.0	0.0
+1549.0	0.0	0.0	0.0
+1590.0	0.0	0.0	0.0
+1643.0	0.0	0.0	0.0
+1690.0	0.0	0.0	0.0
+1735.0	0.0	0.0	0.0
+1778.0	0.0	0.0	0.0
+1831.0	0.0	0.0	0.0
+
+[OFFSET_CONDITIONS*]
+temperature (degC)	airPressure (mbar)	relHumidity (%)
+28.76001	1003.530078125	47.335938
+
+[WHITE_REFERENCE*]
+wavelength	adcCount	cellSigma	resistor
+1127.0	9841.4	16.384138	100.0
+1175.0	7632.2	23.267145	48.5
+1217.0	7467.9	22.033838	48.5
+1270.0	6655.2	18.109667	48.5
+1321.0	6736.8	16.797619	48.5
+1368.0	6147.6	22.8	48.5
+1411.0	9202.8	25.007198	100.0
+1460.0	6166.6	18.304098	100.0
+1504.0	8330.1	22.879904	200.0
+1549.0	6676.5	25.208134	200.0
+1590.0	4391.7	26.840454	200.0
+1643.0	8825.8	20.478281	500.0
+1690.0	6742.1	22.730816	500.0
+1735.0	5184.9	27.197243	500.0
+1778.0	4131.0	27.996428	500.0
+1831.0	4267.7	22.825644	500.0
+
+[WHITE_REFERENCE_CONDITIONS*]
+temperature (degC)	airPressure (mbar)	relHumidity (%)
+28.76001	1003.530078125	47.335938
+
+[PREDICTIONS*]
+modelId	analyteId	analyteName	value	unit
+362cc992-bc3b-11ea-a26e-24418cfdf326	a44897eb-93c6-11ea-b1ef-00ff0275697c	"fabric"	"Wool"	""
+
